@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+div{
+    text-align: center;
+}
+
+div h2{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+div hr{
+    margin: 14px 0;
+}
+div input{
+    margin: 8px 0;
+    padding: 8px;
+    text-align: center;
+    border-radius: 30px;
+    width: 100%;
+    font-size: 16px;
+}
+div button{
+    margin: 0 4px;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+    border: 1px solid #e7adad;
+    background-color: rgb(12, 206, 231);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+div button:hover{
+    background-color: #a7f11e;
+}
